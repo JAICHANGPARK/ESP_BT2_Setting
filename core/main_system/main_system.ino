@@ -4,6 +4,10 @@
 #include <WiFi.h>
 
 LiquidCrystal_I2C lcd(0x3f, 16, 2);
+
+const char* ssid     = "AGR";
+const char* host = "maker.ifttt.com";
+
 struct Button {
   const uint8_t PIN;
   uint32_t numberKeyPresses;

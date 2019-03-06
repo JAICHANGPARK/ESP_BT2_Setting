@@ -1,6 +1,6 @@
 
-
-core\
+# upload
+/core
 
 # Prerequisites
 *.d
