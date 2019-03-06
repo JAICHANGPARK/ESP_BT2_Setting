@@ -1,6 +1,6 @@
 
 # upload
-/core
+/core/main_system/
 
 # Prerequisites
 *.d
@@ -34,3 +34,4 @@
 *.exe
 *.out
 *.app
+core/main_system/main_system.ino
