@@ -6,6 +6,7 @@
 LiquidCrystal_I2C lcd(0x3f, 16, 2);
 
 const char* ssid     = "AGR";
+const char* password = "";
 const char* host = "maker.ifttt.com";
 
 struct Button {
