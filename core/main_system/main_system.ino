@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
+#include <WiFi.h>
 
 LiquidCrystal_I2C lcd(0x3f, 16, 2);
 struct Button {
